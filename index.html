@@ -1,28 +1,151 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Coming Soon</title>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<link href="tools/style.css" rel="stylesheet" type="text/css" />
-<link href="tools/960.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
-<script type="text/javascript" src="js/cufon-yui.js"></script>
-<script type="text/javascript" src="js/Copse_400.font.js"></script>
-<script type="text/javascript" src="js/Gabriola_400.font.js"></script>
-<script type="text/javascript">
-	Cufon.replace('h1', {fontFamily: 'Copse', hover:true})
-	Cufon.replace('p.info', {fontFamily: 'Gabriola', hover:true})
-</script>
-</head>
+	<head>
+		<meta charset="utf-8" />
+		<title>Account Suspended</title>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+		<meta name="author" content="Tirta Wirya Putra">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	</head>
+<style>
+/* 
+	Resets defualt browser settings
+	reset.css
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { margin:0; padding:0; border:0; outline:0; font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit; vertical-align:baseline; }
+:focus { outline:0; }
+a:active { outline:none; }
+ol,ul { list-style:none; }
+table { border-collapse:separate; border-spacing:0; }
+caption,th,td { text-align:left; font-weight:normal; }
+blockquote:before,blockquote:after,q:before,q:after { content:""; }
+blockquote,q { quotes:"" ""; }
+
+body { 
+	font:normal 76%/1.5 Helvetica;
+	letter-spacing:0;
+	color:#FFFFFF;
+	background:#444444;
+	padding:0px 0;
+	position:relative;
+}
+
+.info a:link {
+	color:#00C0E9;
+	text-decoration:none;
+}
+
+.info a:visited {
+	color:#00C0E9;
+	text-decoration:none;
+}
+
+.info a:hover,a:active {
+	color:#00C0E9;
+	text-decoration:none;
+}
+
+.notification{
+	max-width: 650px;
+	background-color: #666666;
+	font-color: #FFFFFF;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 15px;
+}
+
+.info{
+	max-width: 630px;
+	background-color: #666666;
+	font-color: #FFFFFF;
+	font-size: 16px;
+	line-height: 35px;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-top: 1px solid #444444;
+	
+}
+
+.admin{
+	max-width: 650px;
+	background-color: #666666;
+	line-height: 25px;
+	font-color: #FFFFFF;
+	font-weight: normal;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-top: 1px solid #444444;
+	
+}
+
+.warn-banner{
+	background:#E60000;
+	margin-top: 45px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.warn{
+	background:#E60000;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 36px;
+	max-width: 620px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cred{
+	max-width: 650px;
+	background-color: #444444;
+	font-color: #FFFFFF;
+	font-size: 10px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+</style>
 <body>
-<div id="shim"></div>
-<div id="content">
-	<h1 class="logo"><span class="one">Dharma</span> <span class="two">tatemono</span></h1>
-	<p class="info links">Our website is coming soon.<br/>
-		<span>For webmail access, click button below</span>
-		<a href="https://dharmatatemono.com/webmail" class="button1">Webmail</a>
-	</p>
-</div>
+	<div class="warn-banner">
+		<div class="warn">
+			<i class="fa fa-ban"></i> Account Suspended
+		</div>
+	</div>
+	<div class="notification">
+		Account Suspended/Deletion Pending
+	<div class="info">
+		The website hosting account and webmail associated with this domain has been suspended
+			<br>
+		If you are the owner of this account please contact your webmaster
+	</div>
+	<div class="admin">
+		<font color="#FFFF00"><i class="fa fa-exclamation-triangle"></i></font> This account is marked for deletion within the next 7 days
+	</div>	
+	</div>
+	<div class="cred">
+		Copyright &copy; 2017 <a style="color: #00C0E9; text-decoration: none;" href="https://www.tirtawiryaputra.com" target="_blank">TWP</a>
+	</div>
 </body>
 </html>
